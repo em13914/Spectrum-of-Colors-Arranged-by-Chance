@@ -1,0 +1,24 @@
+/* Centering using Flexbox: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container */
+html, body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.square-container {
+	width: 100vh;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.pixel {
+	width: 10%;
+	height: 10%;
+	background-color:;
+}
