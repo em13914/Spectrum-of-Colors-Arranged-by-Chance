@@ -1,7 +1,4 @@
 // How do you assign a value to the background-color property so it is read as a hexadecimal (and NOT a string)?
-// Is there a better way to assign a color value to a div?
-// Could we assign colors using the RGB code?
-
 
 const canvas = document.querySelector('.square-container');
 var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
